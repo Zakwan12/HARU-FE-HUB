@@ -38,6 +38,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "hru ghost blade v3",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Zakwan12/hru-lord-sword-v3/main/HRUGhostBlade%20V3"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
 	Name = "the lord sword",
 	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Zakwan12/combat-warior-fe/main/combat%20warior%20inspired%20script'))()
       		print("button pressed")
