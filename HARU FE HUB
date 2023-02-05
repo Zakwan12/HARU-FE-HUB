@@ -29,6 +29,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Kitty fe :3!",
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Zakwan12/kitty-hru/main/kitty%20hru'))()
+      		print("button pressed")
+  	end    
+})
+
 
 Tab:AddButton({
 	Name = "hru ghost blade!",
@@ -148,6 +155,13 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "free emote fe",
 	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hexx/main/R15%20Emotes/R15%20Emotes.lua'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "keyboard script",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
       		print("button pressed")
   	end    
 })
