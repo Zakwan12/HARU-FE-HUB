@@ -36,17 +36,17 @@ Tab:AddButton({
   	end    
 })
 
-
 Tab:AddButton({
-	Name = "hru ghost blade!",
-	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Zakwan12/hru-ghost-script/main/HRUGhostBlade'))()
+	Name = "flyerz!",
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Zakwan12/hru-the-flyers/main/the%20flyers'))()
       		print("button pressed")
   	end    
 })
 
+
 Tab:AddButton({
-	Name = "The flyerz",
-	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Zakwan12/hru-the-flyers/main/the%20flyers'))()
+	Name = "hru ghost blade!",
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Zakwan12/hru-ghost-script/main/HRUGhostBlade'))()
       		print("button pressed")
   	end    
 })
@@ -173,6 +173,97 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = " script rtx 1",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Zakwan12/rtx-gui1/main/rtx%20gui1", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "script rtx 2",
+	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/xXkUxA0P/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "black hole",
+	Callback = function()loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zakwan12/black-hole-script/main/black%20hole%20script'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "portal gun",
+	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/hXHOUgDa/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "troll chat",
+	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/zCFEwaYq/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "spy admin",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/MichaelScripter/MiniScript/main/Spy%20gui.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "cursor mobile",
+	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+--another animation script
+local Tab = Window:MakeTab({
+	Name = "animation script",
+	Icon = "rbxassetid://11005373938",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "parkour v3",
+	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/Ucu1UkxZ/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "coming soon",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "big worm require item",
+	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/kzCpnTBT/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "laser arm",
+	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/9MA3T1iu/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ghost fe",
+	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/khRLgURJ/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
 --tab3
 
 local Tab = Window:MakeTab({
@@ -199,6 +290,20 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "ice hub",
 	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "hoho hub",
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "universal hub",
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
       		print("button pressed")
   	end    
 })
