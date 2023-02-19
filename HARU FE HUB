@@ -21,6 +21,13 @@ local Tab = Window:MakeTab({
 
 --button add script here
 
+Tab:AddButton({
+	Name = " click this frist netless",
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Zakwan12/netless/main/netless'))()
+      		print("button pressed")
+  	end    
+})
+
 
 Tab:AddButton({
 	Name = "HRU the murder!",
