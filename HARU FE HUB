@@ -236,6 +236,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Kidnap FE r6",
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Zakwan12/kidnap-fe/main/K'))()
+      		print("button pressed")
+  	end    
+})
+
 --another animation script
 local Tab = Window:MakeTab({
 	Name = "animation script",
@@ -365,4 +372,3 @@ Tab:AddSlider({
 })
 
 --nontif
-
