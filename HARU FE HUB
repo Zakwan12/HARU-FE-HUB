@@ -302,6 +302,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "boombox hub",
+	Callback = function()loadstring(game:HttpGet(("https://raw.githubusercontent.com/Zakwan12/BBx-hub/main/BBx%20hub"),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
 	Name = "ice hub",
 	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
       		print("button pressed")
