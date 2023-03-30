@@ -13,7 +13,7 @@ OrionLib:MakeNotification({
      
 --tabs
 local Tab = Window:MakeTab({
-	Name = "Script",
+	Name = "Script fe patched",
 	Icon = "rbxassetid://8419306829",
 	PremiumOnly = false
 })
@@ -225,6 +225,13 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "cursor mobile",
 	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "cctv r15 and r6",
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
       		print("button pressed")
   	end    
 })
