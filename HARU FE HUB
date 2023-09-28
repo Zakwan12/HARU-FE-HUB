@@ -168,7 +168,7 @@ Tab:AddButton({
 
 Tab:AddButton({
 	Name = "free emote fe",
-	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hexx/main/R15%20Emotes/R15%20Emotes.lua'))()
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEmotesGui/main/FEmotesGui.lua", true))()
       		print("button pressed")
   	end    
 })
