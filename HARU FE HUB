@@ -161,7 +161,7 @@ Tab:AddButton({
 
 Tab:AddButton({
 	Name = "IIV admin",
-	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hexx/main/Iv%20Admin/Admin.lua'))()
+	Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hex/main/Iv%20Admin%20v3.lua'))()
       		print("button pressed")
   	end    
 })
