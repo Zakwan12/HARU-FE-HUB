@@ -359,8 +359,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "COMING SOON",
-	Callback = function()
+	Name = "Hitbox",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
       		print("button pressed")
   	end    
 })
