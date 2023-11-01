@@ -13,7 +13,7 @@ OrionLib:MakeNotification({
      
 --tabs
 local Tab = Window:MakeTab({
-	Name = "Script fe patched",
+	Name = "Script fe (PATCHED)",
 	Icon = "rbxassetid://8419306829",
 	PremiumOnly = false
 })
@@ -343,7 +343,29 @@ Tab:AddButton({
   	end    
 })
 
----tab4
+--tab 4
+local Tab = Window:MakeTab({
+	Name = "pvp mode",
+	Icon = "rbxassetid://9873864431",
+	PremiumOnly = false
+})
+
+--BUUTON4
+Tab:AddButton({
+	Name = "ARCEUS AIMBOT",
+	Callback = function()loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "COMING SOON",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+---tab5
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
@@ -352,7 +374,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "script by haruk i/a, gui template orion"
+	Name = "script by haruk i/a, gui orion lib"
 })
 
 Tab:AddColorpicker({
