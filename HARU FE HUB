@@ -167,7 +167,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "IIV admin",
+	Name = "keyboard generate",
 	Callback = function()loadstring(game:HttpGet(('https://pastefy.app/Ujm4HWxh/raw'),true))()
       		print("button pressed")
   	end    
