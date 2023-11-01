@@ -360,7 +360,7 @@ Tab:AddButton({
 
 Tab:AddButton({
 	Name = "Hitbox",
-	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Hit-box-remake-6723"))()
       		print("button pressed")
   	end    
 })
